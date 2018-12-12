@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+    
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block; 
+  padding: 10px 20px;
+  margin: 0 10px 20px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #0b1a26;
+  font-size: 18px;
+}
