@@ -47,7 +47,7 @@ export default {
             this.favorites = JSON.parse(localStorage.getItem('favorites'));
         }
     var self = this;
-    axios.get('https://jsonplaceholder.typicode.com/posts')
+    axios.get("'https://jsonplaceholder.typicode.com/posts/' +this.postId")
     .then(function(res){
       self.posts = res.data;
       console.log('Data: ', res.data);
